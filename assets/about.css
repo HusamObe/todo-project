@@ -1,0 +1,109 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    line-height: 1.5;
+}
+
+
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+nav {
+    display: block;
+
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+.logo {
+    display: block;
+    height: 50px;
+    margin: 10px 0 0 10px;
+}
+
+
+main {
+    padding: 20px;
+
+}
+
+main h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 30px;
+    padding-left: 60px;
+}
+
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-info img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: wait;
+}
+
+footer p {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+
+}
