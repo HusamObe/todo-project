@@ -2,7 +2,6 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: medium;
-    line-height: 1.5;
 }
 
 
@@ -14,9 +13,20 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 10px 10px 70px;
 }
 
+body {
+
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
 
 nav {
     display: block;
@@ -29,11 +39,19 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 
 .logo {
     display: block;
     height: 50px;
     margin: 10px 0 0 10px;
+    align-self: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 
@@ -82,7 +100,7 @@ main p {
     display: block;
     width: 100%;
     padding: 10px;
-    border: 1px solid red;
+    border: 1px solid grey;
     border-radius: 5px;
     margin-bottom: 10px;
 }
@@ -106,4 +124,14 @@ footer p {
     flex-direction: row;
 
 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
