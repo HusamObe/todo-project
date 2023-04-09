@@ -1,3 +1,5 @@
+'use strict';
+
 let userName, userGender, userAge, userSocailStatus, isAGamer, isAReader;
 let userAnswer = [];
 
